@@ -1,0 +1,20 @@
+PORTFÓLIO — PAULO GUILHERME
+
+COMO ABRIR
+1. Extraia a pasta portfolio_paulo.zip.
+2. Abra a pasta portfolio_paulo no Visual Studio Code.
+3. Abra o arquivo index.html no navegador (ou use a extensão Live Server).
+
+ESTRUTURA
+- index.html: conteúdo e seções do site.
+- css/style.css: aparência, cores, Flexbox, Grid e responsividade.
+- js/script.js: menu, saudação, tema, formulário e ano.
+- img/: pasta reservada para imagens próprias.
+
+ANTES DE ENTREGAR
+- Confira se os três projetos descritos são realmente trabalhos seus.
+- Adicione links reais para repositórios/demonstrações, se tiver.
+- O formulário é demonstrativo: não envia dados para um servidor.
+- Teste em larguras de 360px, 768px e 1280px.
+- Teste a navegação pelo teclado e confira o console.
+- No topo de js/script.js há um comentário declarando o uso de IA; mantenha-o e explique o que você adaptou.

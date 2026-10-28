@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Paulo Guilherme, estudante e desenvolvedor em formação.">
+  <title>Paulo Guilherme | Portfólio</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="cabecalho" id="topo">
+    <a class="logo" href="#inicio" aria-label="Paulo Guilherme - início">DEV<span>.</span></a>
+
+    <button class="botao-menu" id="botaoMenu" type="button"
+      aria-label="Abrir menu de navegação" aria-controls="menuNavegacao" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="navegacao" id="menuNavegacao" aria-label="Navegação principal">
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre mim</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+      <button class="botao-tema" id="botaoTema" type="button" aria-label="Ativar modo claro" title="Alternar tema">☼</button>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="inicio secao" id="inicio" aria-labelledby="tituloPrincipal">
+      <div class="inicio-texto">
+        <p class="sobretitulo" id="saudacao">Olá!</p>
+        <h1 id="tituloPrincipal">Eu sou <span>Paulo Guilherme</span></h1>
+        <h2>Desenvolvedor em formação</h2>
+        <p class="descricao-inicio">Estou aprendendo a transformar ideias em experiências digitais com código, criatividade e vontade de evoluir.</p>
+        <div class="acoes-inicio">
+          <a class="botao botao-principal" href="#projetos">Ver meus projetos <span aria-hidden="true">↗</span></a>
+          <a class="botao botao-secundario" href="#sobre">Conheça minha história</a>
+        </div>
+        <p class="disponibilidade"><span class="ponto" aria-hidden="true"></span> Aberto a aprender e colaborar em novos projetos</p>
+      </div>
+      <div class="avatar-area">
+        <div class="avatar" role="img" aria-label="Foto de perfil de Paulo Guilherme">
+          <img src="foto-perfil.png" alt="Foto de perfil de Paulo Guilherme" />
+          <div class="avatar-etiqueta">&lt; código &amp; criatividade /&gt;</div>
+        </div>
+        <span class="decoracao decoracao-um" aria-hidden="true">✳</span>
+        <span class="decoracao decoracao-dois" aria-hidden="true">{ }</span>
+      </div>
+    </section>
+
+    <section class="secao sobre" id="sobre" aria-labelledby="tituloSobre">
+      <div class="cabecalho-secao">
+        <p class="sobretitulo">Um pouco sobre mim</p>
+        <h2 id="tituloSobre">Aprendendo hoje, <span>construindo o amanhã.</span></h2>
+      </div>
+      <div class="sobre-conteudo">
+        <p>Sou Paulo Guilherme, estudante do Senac na área de Tecnologia da Informação (TI) e desenvolvedor em formação. Gosto de aprender como os sites e sistemas funcionam e de colocar esse conhecimento em prática criando projetos.</p>
+        <p>Durante o curso, venho estudando desenvolvimento web, lógica de programação e banco de dados. Meu objetivo é continuar melhorando minhas habilidades, trabalhar em equipe e conquistar uma oportunidade para crescer na área de desenvolvimento.</p>
+      </div>
+    </section>
+
+    <section class="secao habilidades" id="habilidades" aria-labelledby="tituloHabilidades">
+      <div class="cabecalho-secao">
+        <p class="sobretitulo">Ferramentas que estudo</p>
+        <h2 id="tituloHabilidades">Minhas <span>habilidades</span></h2>
+        <p>Conhecimentos em desenvolvimento e tecnologias que continuo praticando.</p>
+      </div>
+      <div class="grade-habilidades">
+        <article class="habilidade-card"><span class="habilidade-icone" aria-hidden="true">5</span><div><h3>HTML</h3><p>Estruturação de páginas</p><span class="nivel">Praticando</span></div></article>
+        <article class="habilidade-card"><span class="habilidade-icone" aria-hidden="true">#</span><div><h3>CSS</h3><p>Estilização e responsividade</p><span class="nivel">Praticando</span></div></article>
+        <article class="habilidade-card"><span class="habilidade-icone" aria-hidden="true">JS</span><div><h3>JavaScript</h3><p>Interatividade nas páginas</p><span class="nivel">Iniciante</span></div></article>
+        <article class="habilidade-card"><span class="habilidade-icone" aria-hidden="true">Py</span><div><h3>Python</h3><p>Lógica e aplicações</p><span class="nivel">Praticando</span></div></article>
+        <article class="habilidade-card"><span class="habilidade-icone" aria-hidden="true">DB</span><div><h3>SQL</h3><p>Consultas e banco de dados</p><span class="nivel">Praticando</span></div></article>
+        <article class="habilidade-card"><span class="habilidade-icone" aria-hidden="true">Fl</span><div><h3>Flask</h3><p>Aplicações web com Python</p><span class="nivel">Iniciante</span></div></article>
+      </div>
+    </section>
+
+    <section class="secao projetos" id="projetos" aria-labelledby="tituloProjetos">
+      <div class="cabecalho-secao">
+        <p class="sobretitulo">O que venho criando</p>
+        <h2 id="tituloProjetos">Projetos em <span>destaque</span></h2>
+        <p>Alguns trabalhos desenvolvidos ou praticados durante meus estudos. Ajuste as descrições para refletirem exatamente o que você fez.</p>
+      </div>
+      <div class="grade-projetos">
+        <article class="projeto-card">
+          <div class="projeto-visual visual-biblioteca" role="img" aria-label="Ilustração de livros e banco de dados"><span>01</span><div class="visual-simbolo">▤</div><p>FLASK + SQLITE</p></div>
+          <div class="projeto-info"><p class="projeto-tipo">Sistema web</p><h3>Sistema de Biblioteca</h3><p>Projeto para organizar autores, livros e leitores, praticando integração entre Flask e banco de dados SQLite.</p><ul class="etiquetas"><li>Python</li><li>Flask</li><li>SQLite</li></ul><a class="link-projeto" href="https://github.com/pgzinhodedantas/UC-32-SQL/tree/main/biblioteca2" target="_blank" rel="noopener noreferrer">Saiba mais <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="projeto-card">
+          <div class="projeto-visual visual-sprint" role="img" aria-label="Ilustração tipográfica de uma marca esportiva"><span>02</span><div class="sprint-texto">SPRINT<br>WEAR<span>.</span></div><p>DESIGN + WEB</p></div>
+          <div class="projeto-info"><p class="projeto-tipo">Site de marca</p><h3>Sprint Wear</h3><p>Proposta de site para uma marca de roupas esportivas, com foco em identidade visual, organização e apresentação dos produtos.</p><ul class="etiquetas"><li>HTML</li><li>CSS</li><li>Design</li></ul><a class="link-projeto" href="https://github.com/pgzinhodedantas/Sprint-wear/tree/main/sprint%20wear" target="_blank" rel="noopener noreferrer">Saiba mais <span aria-hidden="true">↗</span></a></div>
+        </article>
+        <article class="projeto-card">
+          <div class="projeto-visual visual-educatech" role="img" aria-label="Ilustração de interface de plataforma educacional"><span>03</span><div class="educatech-bloco"><div></div><div></div><div></div><strong>Educa<br>tech</strong></div><p>TECNOLOGIA + EDUCAÇÃO</p></div>
+          <div class="projeto-info"><p class="projeto-tipo">Protótipo de interface</p><h3>Educatech</h3><p>Proposta visual de uma plataforma educacional, explorando cores, hierarquia de informações e experiência do usuário.</p><ul class="etiquetas"><li>Figma</li><li>UI</li><li>Prototipagem</li></ul><a class="link-projeto" href="https://github.com/pgzinhodedantas/educa-tech" target="_blank" rel="noopener noreferrer">Saiba mais <span aria-hidden="true">↗</span></a></div>
+        </article>
+      </div>
+      
+    </section>
+
+    <section class="secao contato" id="contato" aria-labelledby="tituloContato">
+      <div class="contato-texto">
+        <p class="sobretitulo">Vamos conversar</p>
+        <h2 id="tituloContato">Tem uma ideia? <span>Entre em contato.</span></h2>
+        <div class="contato-links">
+          <a href="https://github.com/pgzinhodedantas" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+          <!-- Adicione seu LinkedIn aqui quando tiver um perfil profissional. -->
+          <a href="mailto:gringohlegal@gmail.com">E-mail <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <a class="logo" href="#inicio" aria-label="Voltar ao início">PG<span>.</span></a>
+    <p>Feito por Paulo Guilherme · <span id="anoAtual"></span></p>
+    <a class="voltar-topo" href="#topo">Voltar ao topo ↑</a>
+  </footer>
+</body>
+</html>
